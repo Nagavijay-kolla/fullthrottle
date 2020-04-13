@@ -1,0 +1,9 @@
+.user-activity-table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;   
+    th, td {
+        padding: 10px;
+        border: 1px solid black; 
+    }
+}
