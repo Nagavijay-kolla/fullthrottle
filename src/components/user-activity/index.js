@@ -9,7 +9,6 @@ export function UserActivity() {
     const [show, setShow] = useState();
     const fetchUsersActivity = async () => {
         const response = await getUsersActivity();
-        console.log(response)
         setMembers(response);
     }
     const viewUserActivity = member => {
