@@ -3,7 +3,7 @@ import "./header.scss";
 export function Header() {
     return (
         <header className="header">
-            <h3>Full Throttles</h3>
+            <h3>FullThrottles</h3>
         </header>
     )
 }

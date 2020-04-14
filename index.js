@@ -5,5 +5,6 @@ app.use(express.static(path.join(__dirname, 'build')));
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
-
-app.listen(process.env.PORT || 5686);
+app.listen(process.env.PORT || 5686, () => {
+  console.log("Application is running at http://localhost:5686");
+});
